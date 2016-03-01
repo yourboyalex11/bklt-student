@@ -1,40 +1,72 @@
 <!DOCTYPE html>
-<html>
-
-    <title>Brooklyn Law and Tech High School Students | Olivia F. Gresham<title>
-    <!--This links to a seperate CSS stylesheet-->
-    <link rel="stylesheet" href="style.css" />
-
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brooklyn Law and Tech High School Students | Olivia F. Gresham</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+  </head>
   <body>
     <header>
-      <navigation>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-      </navigation>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class"img-responsive" src="http://www.nbastores.top/nba-store-image/Brooklyn-Nets-Logo.png" /></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
     </header>
     <main>
-      <div>
-        <img rel="http://ogidesigns.net/images/oliviafgresham04.jpg" alt="Olivia F. Gresham" />
-        <h2>About Olivia</h2>
-        <p>Ux Designer, graduate of The Savannah College of Art and Design. Majored in Industrial Design with a B.F.A. and minored in User Interaction Design in 2009. She went on to start her own business February, 2010.</p>
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Hello Brooklyn!</h1>
+          <p>I am a student attending Brooklyn School for Law and Tech High School. I am also taking the ScriptEd class. I have been learning front-end development languages like: HTML, CSS, jQuery, Javascript and now the Bootstrap framework.</p>
+        </div>
       </div>
-      <div>
-        <img src="http://www.scad.edu/sites/default/files/Logos/presientseal.jpg" />
-        <h2>Ux Design</h2>
-        <p>User Experience Design is the study of how people use products with computers. They focus on how interfaces should be designed.</p>
-
-      <div>
-        <h2>Social Media</h2>
-        <p>Follow me on:</p>
-        <ol>
-          <li><a href="http://www.twitter.com/ogidesigns"></a>Twitter</li>
-          <li><a rel="http://www.instagram.com/ogidesigns">Instagram</a></li>
-        </ul>
-        <li><a href="http://www.github.com/ogidesigns">Github</a><li>
+      <div class="container">
+          <div>
+            <img src="images/oliviafgresham04.jpg" alt="Olivia F. Gresham" />
+            <h2>About Olivia</h2>
+            <p>Ux Designer, graduate of The Savannah College of Art and Design. Majored in Industrial Design with a B.F.A. and minored in User Interaction Design in 2009. She went on to start her own business February, 2010.</p>
+          </div>
+          <div>
+            <img src="http://www.scad.edu/sites/default/files/Logos/presientseal.jpg" />
+            <h2>Ux Design</h2>
+            <p>User Experience Design is the study of how people use products with computers. They focus on how interfaces should be designed.</p>
+          </div>
+          <div class="social">
+            <h2>Social Media</h2>
+            <p>Follow me on:</p>
+            <ul class="row">
+              <li><a href="http://www.twitter.com/ogidesigns"><img class="img-responsive" src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-128.png" /></a></li>
+              <li><a href="http://www.instagram.com/ogidesigns"><img class="img-responsive" src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/instagram-128.png" /></a></li>
+              <li><a href="http://www.github.com/ogidesigns"><img class="img-responsive" src="https://cdn0.iconfinder.com/data/icons/social-set-2/512/UberCons_SocialPack_GitHub_Cat-128.png" /></a></li>
+            </ul>
+          </div>
       </div>
     </main>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
